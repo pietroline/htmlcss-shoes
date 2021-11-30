@@ -3,3 +3,40 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+div.block{
+    height: 100vh;
+    position: relative;
+}
+
+div.red{
+    background-color: red;
+}
+
+div.green{
+    background-color: green;
+}
+
+div.yellow{
+    background-color: yellow;
+}
+
+.block .product{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block .product h5{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.yellow .product h5{
+    color: green;
+}
+
